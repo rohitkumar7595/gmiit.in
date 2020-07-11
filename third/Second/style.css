@@ -1,0 +1,44 @@
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+
+}
+a {
+	color: orange;
+	font-size: 20px;
+	text-align: left;
+}
+
+body {
+	text-align: right;
+}
+a:hover {
+	text-align: left;
+	font-size: 23px;
+	color: grey;
+
+}
+h1 {
+	font-family: raleway;
+	font-size: 4em;
+	border-bottom: 6px solid pink;
+	width: 500px;
+	box-shadow: 4px;
+}
+
+
+
+img {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.2);
+}
